@@ -76,7 +76,7 @@ function render() {
     appRoot.innerHTML = `
         <div id="simple-player-app">
             <header class="topbar">
-                <a class="brand" href="/" aria-label="Open SongsPlay"><span class="brand-mark">S</span><span>SongsPlay</span></a>
+                <a class="brand" href="./" aria-label="Open SongsPlay"><span class="brand-mark">S</span><span>SongsPlay</span></a>
                 <div class="source-note">Free, open audio</div>
             </header>
             <main class="layout">
