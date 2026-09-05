@@ -144,7 +144,7 @@
         </script>
         <script>
             (() => {
-                const resetKey = 'songsplay-service-worker-reset';
+                const resetKey = 'songsplay-service-worker-reset-v2';
                 if (!('serviceWorker' in navigator) || sessionStorage.getItem(resetKey)) return;
                 navigator.serviceWorker
                     .getRegistrations()
