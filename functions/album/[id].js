@@ -172,7 +172,7 @@ export async function onRequest(context) {
                 const year = album.releaseDate ? new Date(album.releaseDate).getFullYear() : '';
                 const trackCount = album.numberOfTracks || tracks.length;
 
-                const description = `Album by ${artist} • ${year} • ${trackCount} Tracks\nListen on Monochrome`;
+                const description = `Album by ${artist} • ${year} • ${trackCount} Tracks\nListen on SongsPlay`;
                 const imageUrl = album.cover
                     ? api.getCoverUrl(album.cover, '1280')
                     : 'https://monochrome.samidy.com/assets/appicon.png';
@@ -187,7 +187,7 @@ export async function onRequest(context) {
                         <meta name="description" content="${description}">
                         <meta name="theme-color" content="#000000">
 
-                        <meta property="og:site_name" content="Monochrome">
+                        <meta property="og:site_name" content="SongsPlay">
                         <meta property="og:title" content="${title}">
                         <meta property="og:description" content="${description}">
                         <meta property="og:image" content="${imageUrl}">

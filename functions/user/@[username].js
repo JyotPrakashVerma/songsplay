@@ -36,7 +36,7 @@ export async function onRequest(context) {
                 const displayName = escapeHtml(rawDisplayName);
                 const profileUsername = escapeHtml(profile.username);
                 const title = `${displayName} (@${profileUsername})`;
-                let description = escapeHtml(profile.about || `View ${rawDisplayName}'s profile on Monochrome.`);
+                let description = escapeHtml(profile.about || `View ${rawDisplayName}'s profile on SongsPlay.`);
 
                 if (profile.status) {
                     try {
@@ -60,7 +60,7 @@ export async function onRequest(context) {
                         <meta name="description" content="${description}">
                         <meta name="theme-color" content="#000000">
                         
-                        <meta property="og:site_name" content="Monochrome">
+                        <meta property="og:site_name" content="SongsPlay">
                         <meta property="og:title" content="${title}">
                         <meta property="og:description" content="${description}">
                         <meta property="og:image" content="${imageUrl}">

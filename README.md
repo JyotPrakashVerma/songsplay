@@ -1,10 +1,10 @@
  <p align="center">
   <a href="https://monochrome.tf">
-    <img src="https://github.com/monochrome-music/monochrome/blob/main/public/assets/512.png?raw=true" alt="Monochrome Logo" width="150px">
+    <img src="https://github.com/monochrome-music/monochrome/blob/main/public/assets/512.png?raw=true" alt="SongsPlay Logo" width="150px">
   </a>
 </p>
 
-<h1 align="center">Monochrome</h1>
+<h1 align="center">SongsPlay</h1>
 
 <p align="center">
   <strong>An open-source, privacy-respecting, ad-free music app.</strong>
@@ -33,9 +33,9 @@
 
 ---
 
-## What is Monochrome?
+## What is SongsPlay?
 
-**Monochrome** is an open-source, privacy-respecting, ad-free web music player. It provides a beautiful, minimalist interface for streaming high-quality music without the clutter of traditional streaming platforms.
+**SongsPlay** is an open-source, privacy-respecting, ad-free web music player. It provides a beautiful, minimalist interface for streaming free, openly licensed music without unnecessary features.
 
 [![Monochrome UI: NASIR by Nas](https://i.samidy.xyz/NASIR.png)](https://monochrome.tf/album/90502209)
 
@@ -98,7 +98,7 @@
 
 ### Live Instance
 
-Our Recommended way to use monochrome is through our official instance:
+Our recommended way to use SongsPlay is through your deployed instance:
 
 **[monochrome.tf](https://monochrome.tf)** / **[monochrome.samidy.com](https://monochrome.samidy.com)**
 
@@ -113,7 +113,7 @@ NOTE: Accounts will not work on self-hosted instances. Our Appwrite authenticati
 We had to heavily customize the authentication system and write several custom scripts to support features like SMTP and Google OAuth (which are currently bugged in Appwrite). Because of this, we can no longer provide a self-hostable accounts system.
 
 > [!WARNING]
-> You will not be able to stream music after self-hosting and placing the website on a domain. Our API is configured to only accept official instances of Monochrome so you can only stream music on localhost after self-hosting. However, if you have a working and paid HiFi API endpoint then Settings > Instances > Turn on Dev Mode > Place your endpoint there.
+> The simplified SongsPlay player uses the free Internet Archive catalog and does not require a paid music API endpoint.
 
 ### Option 1: Docker (Recommended)
 
@@ -269,7 +269,7 @@ We welcome contributions from the community! Please see our [Contributing Guide]
 </p>
 
 <p align="center">
-  Made with ❤️ by the Monochrome team
+  Made with ❤️ by the SongsPlay team
 </p>
 
 ## Star History

@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-### Monochrome Only
+### SongsPlay Only
 
 ```bash
 docker compose up -d
@@ -28,10 +28,10 @@ Docker Compose [profiles](https://docs.docker.com/compose/how-tos/profiles/) con
 
 | Command                                                   | What starts                          |
 | --------------------------------------------------------- | ------------------------------------ |
-| `docker compose up -d`                                    | Monochrome                           |
-| `docker compose --profile pocketbase up -d`               | Monochrome + PocketBase              |
-| `docker compose --profile dev up -d`                      | Monochrome + Dev server              |
-| `docker compose --profile dev --profile pocketbase up -d` | Monochrome + Dev server + PocketBase |
+| `docker compose up -d`                                    | SongsPlay                            |
+| `docker compose --profile pocketbase up -d`               | SongsPlay + PocketBase               |
+| `docker compose --profile dev up -d`                      | SongsPlay + Dev server               |
+| `docker compose --profile dev --profile pocketbase up -d` | SongsPlay + Dev server + PocketBase  |
 
 In `docker-compose.yml`, it looks like this:
 
@@ -98,7 +98,7 @@ The application is configured via environment variables. Copy `.env.example` to 
 
 ### Authentication (Appwrite)
 
-Monochrome uses Appwrite for user authentication. While it defaults to official instances, you can use your own self-hosted Appwrite instance:
+The legacy application uses Appwrite for user authentication. The active SongsPlay player does not require authentication.
 
 1. Create a project in Appwrite.
 2. Enable the **Google** or **Email/Password** providers in the Appwrite Console.
@@ -108,7 +108,7 @@ Monochrome uses Appwrite for user authentication. While it defaults to official 
 
 ### Database (PocketBase)
 
-Monochrome uses PocketBase to store user data (playlists, favorites, profiles, etc.). You can run it alongside Monochrome using the `pocketbase` profile:
+The legacy application uses PocketBase to store user data. The active SongsPlay player does not require it.
 
 ```bash
 docker compose --profile pocketbase up -d

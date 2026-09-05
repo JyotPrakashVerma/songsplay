@@ -14,22 +14,22 @@ export async function onRequest(context) {
             <html lang="en">
             <head>
                 <meta charset="UTF-8">
-                <title>Monochrome Music | Listening Parties</title>
+                <title>SongsPlay | Listening Parties</title>
                 <meta name="description" content="Listen to music with your friends">
                 <meta name="theme-color" content="#000000">
 
-                <meta property="og:site_name" content="Monochrome">
-                <meta property="og:title" content="Monochrome Music | Listening Parties">
+                <meta property="og:site_name" content="SongsPlay">
+                <meta property="og:title" content="SongsPlay | Listening Parties">
                 <meta property="og:description" content="Listen to music with your friends">
                 <meta property="og:type" content="website">
                 <meta property="og:url" content="${pageUrl}">
 
                 <meta name="twitter:card" content="summary">
-                <meta name="twitter:title" content="Monochrome Music | Listening Parties">
+                <meta name="twitter:title" content="SongsPlay | Listening Parties">
                 <meta name="twitter:description" content="Listen to music with your friends">
             </head>
             <body>
-                <h1>Monochrome Music | Listening Parties</h1>
+                <h1>SongsPlay | Listening Parties</h1>
                 <p>Listen to music with your friends</p>
             </body>
             </html>
